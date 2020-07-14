@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.ADODB">
+      <HintPath>..\Libs\Interop.ADODB.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CDO">
+      <HintPath>..\Libs\Interop.CDO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
